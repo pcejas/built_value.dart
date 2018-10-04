@@ -16,7 +16,10 @@ dependencies:
     git:
       url: https://github.com/pcejas/sdk.git
       path: pkg/analyzer_plugin
-  build: '>=0.12.0 <2.0.0'
+  build: # '>=0.12.0 <2.0.0'
+    git:
+      url: https://github.com/pcejas/build.git
+      path: build
   build_config: ^0.3.1
   built_collection: '>=2.0.0 <5.0.0'
   built_value: '>=5.5.5 <7.0.0'
